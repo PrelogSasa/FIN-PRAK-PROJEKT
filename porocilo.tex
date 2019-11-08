@@ -1,0 +1,64 @@
+\documentclass[a4paper,12 pt]{article}
+%\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage[top=1.3in, bottom=1.3in, left=1.25in, right=1.25in]{geometry}
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+
+\large
+Univerza v Ljubljani\\
+\normalsize
+Fakulteta za matematiko in fiziko\\
+
+\vspace{3 cm} 
+
+\large
+Saša Prelog, Žan Jarc\\
+
+\vspace{0.5cm}
+\LARGE
+\textbf{Grafi z najmanjšim  produktnim ABC indeksom}
+
+\vspace{0.5 cm}
+\normalsize
+Finančni praktikum
+
+
+
+\vspace{3cm}
+
+
+\vfill
+
+\large Ljubljana, 2019
+
+\end{center}
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+\vspace{20mm}
+
+\newpage
+
+\section[Uvod]{Uvod}
+Naj bo $T_n = (V, E)$ drevo z $n$ vozlišči in $d_u$ stopnja vozlišča $u \in V(T_n)$. Potem je \textbf{produktni ABC indeks} grafa $T_n$ definiran kot
+$$
+ABC \Pi (G) = \sqrt{ {\displaystyle \prod_{uv \in E(T_n)}} \frac{d_u + d_v - 2}{d_u d_v}}.
+$$
+V projektni nalogi bova želela najprej ugotoviti, kateri grafi $T_n$ imajo najmanjši produktni ABC indeks za nek primeren $n \in \mathbb{N}$. Cilj projektne naloge je tudi, da ugotoviva, če imajo najdena minimalna drevesa kakšne podobne lastnosti (unikatnost dreves, urejenost vozlišč s stopnjo >= 3, premer drevesa, ...)
+
+\section[Potek dela]{Potek dela}
+Do sedaj sva izračunala vse minimalne produktne ABC indekse za drevesa $T_n$, kjer je bil $n>=15$. Za drevesa s 15 vozlišli je minimalni produktni ABC indeks enak $\frac{25}{589824}$.
+Minimalni produktni ABC indeks sva pridobila, tako da sva izračunala vse produktne ABC indekse za drevesa za vsak $n>=15$. V prihodnosti se bova lotila naloge še za večje indekse in še z uporabo genetskih algoritmov.
+
+
+\end{document}
