@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.21)  29 NOV 2019 18:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.21)  29 NOV 2019 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -557,7 +557,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen116
 \Gm@dimlist=\toks18
 )
-No file porocilo.aux.
+(./porocilo.aux)
 \openout1 = `porocilo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -575,7 +575,7 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 11.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -622,6 +622,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
+
+(./porocilo.out) (./porocilo.out)
 \@outlinefile=\write3
 \openout3 = `porocilo.out'.
 
@@ -663,6 +665,42 @@ LaTeX Info: Redefining \nameref on input line 11.
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./porocilo.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 4.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 4.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 4.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `porocilo.toc'.
 
@@ -672,43 +710,6 @@ been already used, duplicate ignored
                    \relax 
 l.50 \newpage
               [1]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 54.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 54.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 54.
-
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 54.
-
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 54.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 54.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 54.
-LaTeX Font Info:    Try loading font information for U+msa on input line 54.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 54.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
@@ -718,10 +719,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 63.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-
-LaTeX Warning: Reference `fig:ABC' on page 2 undefined on input line 69.
-
-<graf_indeksov_do_19.jpg, id=15, 361.35pt x 225.84375pt>
+<graf_indeksov_do_19.jpg, id=61, 361.35pt x 225.84375pt>
 File: graf_indeksov_do_19.jpg Graphic file (type jpg)
 
 <use graf_indeksov_do_19.jpg>
@@ -733,22 +731,16 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 82.
 
-
-LaTeX Warning: Reference `fig:listi' on page 3 undefined on input line 84.
-
-<Stevilo_listov.jpg, id=32, 361.35pt x 234.8775pt>
+<Stevilo_listov.jpg, id=78, 361.35pt x 234.8775pt>
 File: Stevilo_listov.jpg Graphic file (type jpg)
  <use Stevilo_listov.jpg>
 Package pdftex.def Info: Stevilo_listov.jpg used on input line 86.
 (pdftex.def)             Requested size: 416.83289pt x 270.94208pt.
 
-[3 <./graf_indeksov_do_19.jpg>]
-
-LaTeX Warning: Reference `fig:premer' on page 4 undefined on input line 93.
-
-<sirina.jpg, id=41, 361.35pt x 234.8775pt>
+[3 <./graf_indeksov_do_19.jpg>] <sirina.jpg, id=84, 361.35pt x 234.8775pt>
 File: sirina.jpg Graphic file (type jpg)
- <use sirina.jpg>
+
+<use sirina.jpg>
 Package pdftex.def Info: sirina.jpg used on input line 95.
 (pdftex.def)             Requested size: 416.83289pt x 270.94208pt.
  [4 <./Stevilo_listov.jpg>]
@@ -758,31 +750,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (./porocilo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
-
-
-Package rerunfilecheck Warning: File `porocilo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `porocilo.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  46814934E2626CC2088B81F2EFE71291;507.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `porocilo.out' has not changed.
+(rerunfilecheck)             Checksum: 46814934E2626CC2088B81F2EFE71291;507.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 6467 strings out of 492995
- 93156 string characters out of 6132703
- 179923 words of memory out of 5000000
- 9920 multiletter control sequences out of 15000+600000
+ 6485 strings out of 492995
+ 93381 string characters out of 6132703
+ 180223 words of memory out of 5000000
+ 9930 multiletter control sequences out of 15000+600000
  41300 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,6n,31p,1144b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,6n,31p,1146b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 17/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2017/texmf-dist/
@@ -798,10 +777,10 @@ ic/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy
 8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 
-Output written on porocilo.pdf (6 pages, 132464 bytes).
+Output written on porocilo.pdf (6 pages, 133753 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
