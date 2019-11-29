@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Uvod}{2}{section.1}
+\contentsline {section}{\numberline {2}Iz\IeC {\v c}rpno iskanje}{2}{section.2}
+\contentsline {section}{\numberline {3}Lastnosti dreves}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Unikatnost}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Stopnje vozli\IeC {\v s}\IeC {\v c}}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Premer}{4}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Najdalj\IeC {\v s}i "thread"}{4}{subsection.3.4}
+\contentsline {section}{\numberline {4}Iskanje z metahevristiko}{5}{section.4}
+\contentsline {section}{\numberline {5}Efektivnost algoritmov}{5}{section.5}
