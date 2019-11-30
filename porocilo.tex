@@ -103,11 +103,60 @@ To je takšna najdaljša pot v grafu, v kateri imajo vsa notranja vozlišča sto
 
 \section[Iskanje z metahevristiko]{Iskanje z metahevristiko}
 
+Za reševanje problema sva napisala funkcijo \texttt{SA\_algoritem(n) }pri katerem sva upoštevala metodo "Simulated Annealing". Funkcija ima le en obvezni argument,$n$ in dva neobvezna, $temperaturo T$ in funkcijo, ki jo minimiziramo, v našem primeru \texttt{ABCindeks}. Njen output pa je drevo z $n$ vozlišči, ki naj bi imel najmanjši produktni ABC indeks.
+
+Funkcija deluje iterativno, tako, da na najrej generiramo naključno začetno drevo z že vgrajeno funkcijo \texttt{graphs.RandomTree(n)}, izračunamo produtkni ABC indeks le tega in ugotovimo katera vozlišča so listi drevesa (njihova stopnja je 1) in kateri niso. Nato naključno izberemo en list drevesa, zbrišemo povezavo, ki jo list ima z grafom in ga na "novo" povežemo z naključno izbranim vozliščem (odstranimo možnost, da bi se vozlišče povezalo s samim sabo). S tem pridobimo novo drevo in lahko izračunamo njegov produktni ABC indeks. Če je produktni ABC indeks novega drevesa manjši od začetnega drevesa, novo drevo obravnavamo kot začetno in iterativni postopek nadaljujemo naprej. Če pa je produktni ABC indeks novega drevesa večji od začetnega, pa novo drevo proglasimo za začetnega z verjetnostjo $e^{(-(ABCindeks(nov) - ABCindeks(začetno))/T)}$. Po koncu vsakega koraka zmanjšamo temperaturo $T$ za $5\%$
+V najinem algoritmu sva povsod naredila 1000 iterativnih korakov in izbrala začetno temperaturo 100.
+
 
 \section[Efektivnost algoritmov]{Efektivnost algoritmov}
 
 Z izčrpnim iskanjem sva lahko našla natančeno vrednost najmanjšega ABC indeksa in tudi vse rešitve, ki dajo takšno vrednost, vendar pa je takšen način iskanja zelo časovno zahteven in zato uporaben samo za iskanje na manjših drevesih. Za iskanje rezultata za drevo s sedemnajstimi vozlišči sva rabila 4 minute, za iskanje rezultata za drevo z devetnajstimi vozlišči že 10 minut za drevo z enaindvajsetimi vozlišči pa več kot dve uri.
 
 Časovno je veliko bolj efektivno iskanje rešitve z metahevristiko, ki pa ne da nujno natančne oz čisto prave rešitve in tudi ne da vseh možnih rešitev za določeno vrednost ABC indeksa. Za iskanje rešitev za drevesa z petindvajset do petintrideset vozlišči skupaj je rabil algoritem le štiri minute. Kako natančne rešitve sva dobila pa lahko presodiva tako, da primerjava njihove lastnosti z lastnostmi natančnih rešitev na manj vozliščih, ki sva jih raziskala prej.
+
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{Graf_natancno_17.png}
+  \caption{Drevo s 17 vozlišči z najmanjšim produktnim ABC indeksom}
+  \label{fig:natančno_17}
+\end{figure}
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{Graf_algo_17.png}
+  \caption{Drevo s 17 vozlišči z najmanjšim produktnim ABC indeksom, dobljeno z algoritmom}
+  \label{fig:algo_17}
+\end{figure}
+
+Ker sva v algoritmu na vsakem korak zamenjala le povezavo enega lista drevesa, generirana drevesa niso tako "lepo" razvejena kot so bile eksaktne rešitve (glej Sliko 4 in 5). Če primerjamo produktne ABC indekse med drevesi, ki sva jih pridobila z izčrpnim iskanjem in drevesi, ki sva jih pridobila z algoritmom, ugotovimo, da je algoritem vsaj do 17 vozlišč izračuna dokaj pravilen minimalni produktni ABC indeks.
+
+
+\begin{table}
+ \begin{tabular}{||c  c c||} 
+ \hline
+ Število vozlišč & Natančni ABC indeksi & ABC indeksi z algoritmom \\ [0.5ex] 
+ \hline\hline
+ 10 & 0.001736111111111111 & 0.001736111111111111\\ 
+ \hline
+ 11 & 0.0008680555555555555 & 0.0008680555555555555 \\
+ \hline
+ 12 & 0.0004069010416666667 & 0.00043402777777777775 \\
+ \hline
+ 13 & 0.00019290123456790122 & 0.00021701388888888888 \\
+ \hline
+ 14 & 9.1552734375e{-05} & 0.00010172526041666667 \\ 
+ \hline
+ 15 & 4.238552517361111e{-05} & $5.425347222222222{e-05}$ \\
+ \hline
+ 16& 2.1192762586805555e{-05} & $2.712673611111111e{-05}$    \\
+ \hline
+ 17  & 9.5367431640625e{-06} & $1.52587890625e{-05}$\\ [1ex] 
+ \hline
+\end{tabular}
+\caption{Tabela ABC indeksov}
+\label{table:1}
+\end{table}
+
 
 \end{document}
